@@ -4,7 +4,7 @@ package Creational;
     Driver for the Builder Design Pattern
  */
 
-public class BuilderDriver {
+public class BuilderDemo {
     public static void main(String[] args) {
         Builder.OrderBuilder builder = new Builder.OrderBuilder(1);
         builder.setDrink("Coffee").setBurger("Double Cheese Burger").addCheese();
