@@ -18,6 +18,8 @@ package Creational.Prototype;
         - Clone / Cloneable
         - Even though it is a copy, it is still an unique instance
         - Can still use parameters for construction
+        - Especially useful when an app creates a lot of objects which affects performance
+            -  This pattern helps obtain these objects faster than creating with the "new" keyword
         - Shallow vs. Deep Copy
             - Shallow Copy: Copy immediate properties
             - Deep Copy: Copy any of its object references as well
