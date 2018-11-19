@@ -1,4 +1,4 @@
-package Creational;
+package Creational.Builder;
 
 /*
     Author: Tsz Yan "Kenneth" Wong
@@ -17,7 +17,7 @@ package Creational;
             - Locale.Builder
  */
 
-public class Builder {
+public class DinnerOrder {
     public static class OrderBuilder {
         private int customerId;
         private String drink = "Coke"; // default
@@ -30,8 +30,8 @@ public class Builder {
             this.customerId = customerId;
         }
 
-        public Builder build() {
-            return new Builder(this);
+        public DinnerOrder build() {
+            return new DinnerOrder(this);
         }
 
         public OrderBuilder setDrink(String drink) {
@@ -67,7 +67,7 @@ public class Builder {
     private boolean cheese;
     private String toGo;
 
-    private Builder(OrderBuilder ob) {
+    private DinnerOrder(OrderBuilder ob) {
         this.customerId = ob.customerId;
         this.drink = ob.drink;
         this.burger = ob.burger;

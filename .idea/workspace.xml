@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32a651c7-9e37-4875-a975-c10db062a2b9" name="Default" comment="Upload Builder design pattern with driver">
-      <change afterPath="$PROJECT_DIR$/src/Creational/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Creational/BuilderDriver.java" afterDir="false" />
+    <list default="true" id="32a651c7-9e37-4875-a975-c10db062a2b9" name="Default" comment="Update the Builder design pattern">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational/Prototype/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational/Prototype/Clothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational/Prototype/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational/Prototype/ProductItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational/Prototype/PrototypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Creational/Prototype/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/DinnerOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/BuilderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Builder/BuilderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creational/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creational/Singleton/Single.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,35 +27,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Singleton.java">
+      <file leaf-file-name="PrototypeDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/PrototypeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="81">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Builder.java">
+      <file leaf-file-name="ProductItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/ProductItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-407">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="136">
+              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding>
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuilderDriver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Creational/BuilderDriver.java">
+      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="75">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clothing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Clothing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registry.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Registry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,6 +106,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +120,17 @@
         <option value="$PROJECT_DIR$/src/Creational/Singleton.java" />
         <option value="$PROJECT_DIR$/src/Creational/Builder.java" />
         <option value="$PROJECT_DIR$/src/Creational/BuilderDriver.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Builder/Builder.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/Book.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/Movie.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/Clothing.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Builder/BuilderDemo.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/ProductItem.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/Registry.java" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/PrototypeDemo.java" />
       </list>
     </option>
   </component>
@@ -107,6 +168,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Creational" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design-patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Creational" type="462c0819:PsiDirectoryNode" />
+              <item name="Prototype" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,9 +206,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuilderDriver">
+  <component name="RunManager" selected="Application.PrototypeDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Creational.Builder.BuilderDemo" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Creational.Prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Creational.Builder.BuilderDemo" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Creational.Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="BuilderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Creational.BuilderDriver" />
@@ -141,13 +238,24 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Creational.*" />
+          <option name="PATTERN" value="Creational.Prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Creational.Prototype.PrototypeDemo" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Creational.Prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Singleton" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Creational.Singleton" />
+      <option name="MAIN_CLASS_NAME" value="Creational.Singleton.Singleton" />
       <module name="design-patterns" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
@@ -195,9 +303,15 @@
     <list>
       <item itemvalue="Application.Singleton" />
       <item itemvalue="Application.BuilderDriver" />
+      <item itemvalue="Application.BuilderDemo" />
+      <item itemvalue="Application.BuilderDemo" />
+      <item itemvalue="Application.PrototypeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeDemo" />
+        <item itemvalue="Application.BuilderDemo" />
+        <item itemvalue="Application.BuilderDemo" />
         <item itemvalue="Application.BuilderDriver" />
       </list>
     </recent_temporary>
@@ -220,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542495983072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload Builder design pattern with driver">
+      <created>1542502601669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542502601669</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update the Builder design pattern">
+      <created>1542581114550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542581114550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -229,13 +357,13 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32961783" />
+      <window_info anchor="bottom" id="Messages" weight="0.32961783" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961783" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4219745" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -261,25 +389,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload simple thread-safe implementation of the Singleton pattern" />
     <MESSAGE value="Upload Builder design pattern with driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload Builder design pattern with driver" />
+    <MESSAGE value="Update the Builder design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the Builder design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/Single.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="56">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Builder/DinnerOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-407">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="e#736#737#0" expanded="true" />
             <element signature="e#788#789#0" expanded="true" />
@@ -289,10 +418,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/BuilderDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Builder/BuilderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Clothing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/PrototypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/ProductItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Registry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

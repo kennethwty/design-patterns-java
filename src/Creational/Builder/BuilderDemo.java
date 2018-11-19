@@ -1,4 +1,4 @@
-package Creational;
+package Creational.Builder;
 
 /*
     Driver for the Builder Design Pattern
@@ -6,10 +6,10 @@ package Creational;
 
 public class BuilderDemo {
     public static void main(String[] args) {
-        Builder.OrderBuilder builder = new Builder.OrderBuilder(1);
+        DinnerOrder.OrderBuilder builder = new DinnerOrder.OrderBuilder(1);
         builder.setDrink("Coffee").setBurger("Double Cheese Burger").addCheese();
 
-        Builder order = builder.build();
+        DinnerOrder order = builder.build();
 
         System.out.println("Customer ID: " + order.getCustomerId());
         System.out.println("Choice of Burger: " + order.getBurger());

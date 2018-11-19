@@ -1,4 +1,4 @@
-package Creational;
+package Creational.Singleton;
 
 /*
     Author: Tsz Yan "Kenneth" Wong
@@ -14,22 +14,22 @@ package Creational;
             - Spring Beans
  */
 
-public class Singleton {
-    private static volatile Singleton me = null;
+public class Single {
+    private static volatile Single me = null;
 
-    private Singleton() {
+    private Single() {
         // prevent Reflection
         if(me != null) {
             throw new RuntimeException("Use getInstance() to create.");
         }
     }
 
-    public static Singleton getInstance() {
+    public static Single getInstance() {
         // lazily loaded
         if(me == null) {
-            synchronized (Singleton.class) {
+            synchronized (Single.class) {
                 if(me == null) {
-                    me = new Singleton();
+                    me = new Single();
                 }
             }
         }
@@ -37,8 +37,8 @@ public class Singleton {
     }
 
     public static void main(String[] args) {
-        Singleton lonelyObject = Singleton.getInstance();
-        Singleton robot = Singleton.getInstance();
+        Single lonelyObject = Single.getInstance();
+        Single robot = Single.getInstance();
 
         if(lonelyObject == robot) {
             System.out.println("Glad that it is not a lonely person...");
