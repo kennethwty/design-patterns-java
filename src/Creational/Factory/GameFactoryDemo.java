@@ -17,23 +17,9 @@ package Creational.Factory;
             - NumberFormat
  */
 
-import java.util.ArrayList;
-import java.util.List;
-
-public abstract class Game {
-
-    protected List<String> features = new ArrayList<>();
-
-    // no-arg constructor
-    public Game() {
-        this.createGame();
+public class GameFactoryDemo {
+    public static void main(String[] args) {
+        Game game = GameFactory.getGame("GTA");
+        System.out.println("This game has the following features: " + game.getFeatures());
     }
-
-    public List<String> getFeatures() {
-        return features;
-    }
-
-    public abstract void createGame();
-
 }
-

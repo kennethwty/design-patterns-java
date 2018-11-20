@@ -17,23 +17,20 @@ package Creational.Factory;
             - NumberFormat
  */
 
-import java.util.ArrayList;
-import java.util.List;
+public class GameFactory {
+    public static Game getGame(String gameName) {
+        switch(gameName) {
+            case "NBA2K":
+                return new NBA2K();
 
-public abstract class Game {
+            case "Fortnite":
+                return new Fortnite();
 
-    protected List<String> features = new ArrayList<>();
+            case "GTA":
+                return new GTA();
 
-    // no-arg constructor
-    public Game() {
-        this.createGame();
+            default:
+                return null;
+        }
     }
-
-    public List<String> getFeatures() {
-        return features;
-    }
-
-    public abstract void createGame();
-
 }
-
