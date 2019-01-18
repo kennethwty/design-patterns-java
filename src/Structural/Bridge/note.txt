@@ -3,14 +3,22 @@
     Author: Tsz Yan "Kenneth" Wong
 
     Concepts:
-        - Similar to the Adapter design pattern, but it is for new code instead of legacy code
-        -
+        - Decouple abstraction and implementation
+        - Encapsulation, Composition, Inheritance
+        - Changes in Abstraction won't affect the client
+        - Details won't be right
+
+        Note: Similar to the Adapter design pattern, but it works with new code instead of legacy code
 
     Design:
-        -
+        - Utilize Interfaces and Abstract classes
+        - Composition over Inheritance
+        - More than just Composition
+        - Designed to expect changes from both sides
+        - Abstraction, Implementor, Refined Abstraction, Concrete Implementor
 
-    Examples:
-        -
+    Example:
+        - JDBC Driver
 
     Pitfalls:
         -
