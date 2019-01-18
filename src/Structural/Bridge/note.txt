@@ -1,0 +1,16 @@
+    Structural Design Pattern - Bridge
+
+    Author: Tsz Yan "Kenneth" Wong
+
+    Concepts:
+        - Similar to the Adapter design pattern, but it is for new code instead of legacy code
+        -
+
+    Design:
+        -
+
+    Examples:
+        -
+
+    Pitfalls:
+        -
