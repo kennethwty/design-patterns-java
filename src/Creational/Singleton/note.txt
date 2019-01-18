@@ -1,0 +1,13 @@
+    Creational Design Pattern - Singleton
+
+    Author: Tsz Yan "Kenneth" Wong
+
+    Concepts:
+        - Only one instance created
+        - Guarantees control of a resource
+        - Lazily loaded
+        - Examples:
+            - Graphic Manager
+            - Logger
+            - Runtime
+            - Spring Beans

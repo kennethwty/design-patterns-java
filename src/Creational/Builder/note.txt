@@ -1,0 +1,16 @@
+    Creational Design Pattern - Builder
+
+    Author: Tsz Yan "Kenneth" Wong
+
+    Concepts:
+        - Great for handling the construction of objects that may contain a lot of parameters
+        - Want to make the objects immutable once they are constructed
+
+        * Large number of parameters
+        * Complex constructors
+        * Immutability
+
+        - Examples:
+            - StringBuilder
+            - DocumentBuilder
+            - Locale.Builder
