@@ -21,4 +21,20 @@
         - JDBC Driver
 
     Pitfalls:
-        -
+        - Increases complexity
+        - Conceptually difficult to plan
+        - More than just OO
+        - What goes where in your code
+
+    Contrast:
+        - Bridge Pattern
+            - Design upfront
+            - Abstraction and implementation vary
+            - Built in advance
+            - Complex
+
+        - Adapter Pattern
+            - Works after code is designed
+            - Legacy
+            - Retrofitted
+            - Provides different interface
