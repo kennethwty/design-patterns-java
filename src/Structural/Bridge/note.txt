@@ -1,6 +1,6 @@
     Structural Design Pattern - Bridge
 
-    Author: Tsz Yan "Kenneth" Wong
+    Author: Bryan Hansen (Pluralsight)
 
     Concepts:
         - Decouple abstraction and implementation

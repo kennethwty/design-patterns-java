@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a651c7-9e37-4875-a975-c10db062a2b9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/BridgeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/Detail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/HtmlFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/MoviePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/PrintFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Structural/Bridge/demo notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Structural/Bridge/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structural/Bridge/note.txt" afterDir="false" />
     </list>
@@ -27,61 +18,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="note.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BridgeDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/BridgeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/note.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BridgeDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/BridgeDemo.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Formatter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Formatter.java">
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="105">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding>
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Detail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Detail.java">
+      <file leaf-file-name="MoviePrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/MoviePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HtmlFormatter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/HtmlFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="28" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintFormatter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/PrintFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -150,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/Creational/Singleton/note.txt" />
         <option value="$PROJECT_DIR$/src/Creational/Factory/note.txt" />
         <option value="$PROJECT_DIR$/src/Creational/Prototype/note.txt" />
-        <option value="$PROJECT_DIR$/src/Structural/Bridge/note.txt" />
         <option value="$PROJECT_DIR$/src/Structural/Bridge/BridgeDemo.java" />
+        <option value="$PROJECT_DIR$/src/Structural/Bridge/note.txt" />
       </list>
     </option>
   </component>
@@ -470,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547853794785</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Uploaded Bridge Design Pattern">
+      <created>1547855736708</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547855736708</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated note.txt for Bridge pattern">
+      <created>1547858854340</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547858854340</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,6 +489,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32961783" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -486,7 +497,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4219745" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32961783" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
@@ -502,7 +513,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32961783" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -550,7 +560,9 @@
     <MESSAGE value="Update Adapter Pattern player interface" />
     <MESSAGE value="Added note.txt to each design pattern" />
     <MESSAGE value="Added note.txt to the Bridge design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added note.txt to the Bridge design pattern" />
+    <MESSAGE value="Uploaded Bridge Design Pattern" />
+    <MESSAGE value="Updated note.txt for Bridge pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated note.txt for Bridge pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,15 +819,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/note.txt">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/setup.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/BridgeEverydayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/setup.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/demo notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Detail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/MoviePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -842,34 +890,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Detail.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/PrintFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/BridgeEverydayDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/demo notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Formatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/HtmlFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/BridgeDemo.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
